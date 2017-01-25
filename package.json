@@ -1,0 +1,27 @@
+{
+  "name": "javascript-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Otis Chou <altispec@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-remember": "^0.3.1",
+    "pug": "^2.0.0-beta7",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "no-use-before-define": [
+        "error", { "functions": true, "classes": false }
+      ]
+    }
+  }
+}
