@@ -23,6 +23,10 @@ class Light {
     console.log(`Current is ${this.name()} light.`)
   }
 
+  initTimeLeft() {
+    throw new Error('Need to implement "initTimeLeft" method.')
+  }
+
   name() {
     throw new Error('Need to implement "name" method.')
   }
