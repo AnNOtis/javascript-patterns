@@ -5,6 +5,7 @@
   "author": "Otis Chou <altispec@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "yarn start",
     "lint": "xo"
   },
   "devDependencies": {
